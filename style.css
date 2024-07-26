@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Nanum+Brush+Script&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    min-height: 100vh;
+    background-image: url("todobackground.gif");
+    background-size:cover;
+}
+
+.heading{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b33f3f;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 0px;
+    border-radius: 30px;
+    box-shadow: 3px 5px 10px 2px rgb(231, 229, 196);
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.anotherheading{
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-style: normal;
+  font-weight:200px ;
+  font-size: 20px;
+
+}
+.header{
+    margin: 15px;
+}
+.easel-image{
+    height: 100px;
+    display: flex;
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form_input{
+    padding: 13px;
+    width: 270px;
+    border-style: solid;
+    border-radius: 30px 0px 0px 30px;
+    border-width: 2px 0px 2px 2px;
+    border-color: black;
+}
+
+.button{
+    padding: 13px;
+    border-radius: 0px 30px 30px 0px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.list-container{
+   
+    background-color:#b33f3f;
+    opacity: 0.95;
+    min-width: 700px;
+    min-height: 300px;
+    margin: 70px;
+    border-radius: 30px;
+    box-shadow: 3px 5px 10px 2px rgb(231, 229, 196);
+}
+.item{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(231, 229, 196);
+    border-radius: 20px;
+    width: 600px;
+    border-bottom: 2px solid rgb(104, 104, 104);
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: 600;
+    font-size: 20px;
+}
